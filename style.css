@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Hepta+Slab:300,400,500,600,700,800|Permanent+Marker&display=swap");
+body {
+  background-color: #3498db;
+  background-size: 40px 12px;
+  background-image: linear-gradient(to right, rgba(236, 240, 241, 0.2) 1px, transparent 1px), linear-gradient(to bottom, rgba(236, 240, 241, 0.2) 1px, transparent 1px);
+  color: #2c3e50;
+  font-family: "Hepta Slab", cursive;
+}
+
+p {
+  font-weight: 500;
+  padding-bottom: 1em;
+  line-height: 1.5em;
+}
+
+p a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: 600;
+}
+
+#container {
+  width: 60%;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+  background-color: #ecf0f1;
+  position: relative;
+  clip-path: polygon(100px 0%, 101% -1%, 101% 101%, -1% 101%, 0% 100px);
+  box-shadow: 0px 0px 5px #2c3e50;
+  border-radius: 3px;
+}
+
+#title {
+  font-size: 36px;
+}
+
+hr {
+  width: 20%;
+  margin: 2em auto 1em auto;
+  border: none;
+  border-top: 1.5px solid #7f8c8d;
+  text-align: center;
+  padding: 0;
+  overflow: visible;
+}
+
+hr:after {
+  content: "☍";
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2.5em;
+  transform: rotate(-25deg);
+}
+
+#intro {
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+  font-size: 0.9em;
+  color: #34495e;
+}
+
+.script {
+  transform: rotate(-10deg);
+  font-family: "Permanent Marker", cursive;
+  color: #c0392b;
+  text-shadow: 1px 1px 0 #000;
+}
+
+h2.script {
+  width: 50%;
+  position: relative;
+  font-size: 3em;
+  top: 1.3em;
+  margin-top: -1em;
+  z-index: 10;
+}
+
+span.script {
+  position: relative;
+  left: 30px;
+  display: inline-block;
+  z-index: 10;
+}
+
+span.display {
+  position: relative;
+  top: 15px;
+  right: 30px;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+#container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 50px 50px 50px 50px;
+  border-style: solid;
+  border-color: #eaeeef;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0px 0px 3px #95a5a6;
+}
+
+.subcontainer {
+  margin: 1em 0 1em 0;
+  padding: 0 1em 0 1em;
+  min-height: 10em;
+  background-color: #bdc3c7;
+  background-clip: padding-box;
+  border-top: 2px dashed #7f8c8d;
+  border-bottom: 2px dashed #7f8c8d;
+}
+
+#algorithm-buttons {
+  width: max-content;
+  margin: 1em auto auto 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#algorithm-buttons button {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 100%;
+  font-family: inherit;
+}
