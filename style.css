@@ -1,11 +1,10 @@
+@charset "UTF-8";
 body {
   background-color: #3498db;
   background-size: 40px 12px;
-  background-image:
-    linear-gradient(to right, rgba(236, 240, 241,0.2) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(236, 240, 241,0.2) 1px, transparent 1px);
+  background-image: linear-gradient(to right, rgba(236, 240, 241, 0.2) 1px, transparent 1px), linear-gradient(to bottom, rgba(236, 240, 241, 0.2) 1px, transparent 1px);
   color: #2c3e50;
-  font-family: 'Bahnschrift Light', cursive;
+  font-family: "Bahnschrift Light", cursive;
 }
 
 p {
@@ -56,7 +55,6 @@ hr:after {
   top: -0.8em;
   font-size: 2.5em;
   transform: rotate(-25deg);
-  //background-color: #ecf0f1;
 }
 
 #intro {
@@ -69,10 +67,9 @@ hr:after {
 
 .script {
   transform: rotate(-10deg);
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   color: #c0392b;
-  text-shadow:
-     1px 1px 0 #000;
+  text-shadow: 1px 1px 0 #000;
 }
 
 h2.script {
